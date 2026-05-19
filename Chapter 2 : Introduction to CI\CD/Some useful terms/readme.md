@@ -4,4 +4,8 @@
 #### Branches 
 - `Git` allows multiple copies, `streams`, or `versions` of the code to co-exist without overwriting each other. When you first create a repository, you will be looking at the main branch (usually in `Git`, we call this `main` or `master`, but that does vary in older projects). This is fine if there's only one developer for a project and that developer only works on one feature at a time.
 > Branches are useful when this environment becomes more complex. 
-
+- [ ] Each branch is effectively a copy of the main branch with some changes that make it diverge from it.
+- [ ] Once the feature or change in the branch is ready it can be merged back into the main branch, effectively making that feature or change part of the main software.
+- [ ] In this way, each developer can work on their own set of changes and not affect any other developer until the changes are ready.
+> But once one developer has merged their changes into the main branch, what happens to the other developers' branches? They are now diverging from an older copy of the main branch.
+#####  How will the developer on the later branch know if their changes are compatible with the current state of the main branch? That is one of the fundamental questions we will be trying to answer in this part.
