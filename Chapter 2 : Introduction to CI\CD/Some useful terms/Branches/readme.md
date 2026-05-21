@@ -24,3 +24,7 @@
 >  The history for a branch is extrapolated through the **commit relationships**.
 - As you read, remember that Git branches aren't like SVN branches.Whereas SVN branches are only used to capture the occasional large-scale development effort
 - Git branches are an integral part of your everyday workflow. The following content will expand on the internal Git branching architecture.
+## Summary
+- In this document we discussed `Git's` branching behavior and the `git branch` command. The git branch commands primary functions are to create, list, rename and delete branches.
+-  To operate further on the resulting branches the command is commonly used with other commands like `git checkout`.
+> Compared to other VCSs, Git's branch operations are inexpensive and frequently used. This flexibility enables powerful Git workflow customization. 
