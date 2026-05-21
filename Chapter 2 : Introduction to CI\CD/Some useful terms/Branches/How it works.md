@@ -7,3 +7,29 @@
 -  It doesn’t let you switch between branches or put a forked history back together again.
 -   For this reason, `git branch` is tightly integrated with the `git checkout` and `git merge` commands.
 #### Common Options
+```git
+git branch
+```
+List all of the branches in your repository. This is synonymous with `git branch --list`.
+```git
+git branch <branch>
+```
+Create a new branch called `＜branch＞`. This does not check out the new branch.
+```git
+git branch -d <branch>
+```
+Delete the specified branch. This is a “safe” operation in that Git prevents you from deleting the branch if it has unmerged changes.
+```git
+git branch -D <branch>
+```
+Force delete the specified branch, even if it has unmerged changes. This is the command to use if you want to permanently throw away all of the commits associated with a particular line of development.
+```git
+git branch -m <branch>
+```
+Rename the current branch to ＜branch＞.
+```git
+git branch -a
+```
+List all remote branches. 
+
+
